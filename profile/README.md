@@ -11,7 +11,7 @@
 * [Introduction](#-introduction)
 * [Demo](#-demo)
 * [API](#-api)
-* [System Architecture](F-system-architecture)
+* [System Architecture](%EF%B8%8F-system-architecture)
 * [ERD](#-erd)
 * [Tech Stack](#-tech-stack)
 * [Monitoring](#-monitoring)
