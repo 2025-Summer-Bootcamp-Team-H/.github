@@ -179,38 +179,189 @@ npm run dev
 
 # 📁 Directory Structure
 
+<details>
+<summary>ClaimBridge-Backend</summary>
+         
 ```
-claimbridge/
-├── backend/                    # 백엔드 서버
-│   ├── backend/               # FastAPI 애플리케이션
-│   │   ├── api/              # API 엔드포인트
-│   │   │   ├── auth.py       # 인증 API
-│   │   │   ├── upload.py     # 파일 업로드 API
-│   │   │   ├── ocr.py        # OCR 처리 API
-│   │   │   ├── claims.py     # 보험금 청구 API
-│   │   │   ├── medical.py    # 의료 정보 API
-│   │   │   ├── forgeries.py  # 위조분석 API
-│   │   │   └── pdf.py        # PDF 처리 API
-│   │   ├── models/           # 데이터베이스 모델
-│   │   ├── services/         # 비즈니스 로직
-│   │   ├── utils/            # 유틸리티/스크립트
-│   │   └── main.py           # FastAPI 앱 설정
-│   ├── nginx/                # Nginx 설정
-│   ├── deploy/               # 배포 스크립트
-│   ├── docker-compose.yml    # 개발용 Docker 설정
-│   ├── docker-compose.prod.yml # 프로덕션용 Docker 설정
-│   └── uploads/              # 업로드 파일 저장소
-├── frontend/                  # 프론트엔드 애플리케이션
-│   ├── src/
-│   │   ├── components/       # 재사용 가능한 컴포넌트
-│   │   ├── pages/           # 페이지 컴포넌트
-│   │   ├── assets/          # 정적 파일
-│   │   ├── styles/          # 전역 스타일
-│   │   └── utils/           # 유틸리티 함수
-│   ├── package.json         # 의존성 관리
-│   └── vite.config.js       # Vite 설정
-└── README.md                # 프로젝트 문서
+🗂️ ClaimBridge-Backend
+┣ 📃 Dockerfile  
+┣ 📃 Dockerfile.prod  
+┣ 📃 main.py  
+┣ 📃 README.md  
+┣ 📃 requirements.txt  
+┣ 📃 resnet18_ela.pth  
+┣ 📃 TEAM_GUIDE.md  
+┣ 📃 가이드.md  
+
+┣ 🗂️ api  
+┃ ┣ 📃 auth.py  
+┃ ┣ 📃 claims.py  
+┃ ┣ 📃 forgeries.py  
+┃ ┣ 📃 medical.py  
+┃ ┣ 📃 ocr.py  
+┃ ┣ 📃 pdf.py  
+┃ ┣ 📃 upload.py  
+┃ ┣ 📃 __init__.py  
+┃ ┗ 🗂️ __pycache__  
+┃   ┣ 📃 auth.cpython-311.pyc  
+┃   ┣ 📃 claims.cpython-311.pyc  
+┃   ┣ 📃 forgeries.cpython-311.pyc  
+┃   ┣ 📃 medical.cpython-311.pyc  
+┃   ┣ 📃 ocr.cpython-311.pyc  
+┃   ┣ 📃 pdf.cpython-311.pyc  
+┃   ┣ 📃 upload.cpython-311.pyc  
+┃   ┗ 📃 __init__.cpython-311.pyc  
+
+┣ 🗂️ api_backup  
+┃ ┣ 📃 claims.py  
+┃ ┣ 📃 medical.py  
+┃ ┗ 📃 pdf.py  
+
+┣ 🗂️ input_pdfs  
+┃ ┣ 📃 .gitkeep  
+┃ ┣ 📃 삼성생명_스마트보장보험.pdf  
+┃ ┣ 📃 삼성생명_실손의료비보장보험.pdf  
+┃ ┗ 📃 삼성생명_희망사랑보험.pdf  
+
+┣ 🗂️ models  
+┃ ┣ 📃 database.py  
+┃ ┣ 📃 models.py  
+┃ ┣ 📃 schemas.py  
+┃ ┣ 📃 __init__.py  
+┃ ┗ 🗂️ __pycache__  
+┃   ┣ 📃 database.cpython-311.pyc  
+┃   ┣ 📃 models.cpython-311.pyc  
+┃   ┣ 📃 schemas.cpython-311.pyc  
+┃   ┗ 📃 __init__.cpython-311.pyc  
+
+┣ 🗂️ output_results  
+┃ ┣ 📃 .gitkeep  
+┃ ┣ 📃 삼성생명_스마트보장보험_extracted_clauses.json  
+┃ ┣ 📃 삼성생명_실손의료비보장보험_extracted_clauses.json  
+┃ ┗ 📃 삼성생명_희망사랑보험_extracted_clauses.json  
+
+┣ 🗂️ services  
+┃ ┣ 📃 ai_config.py  
+┃ ┣ 📃 claim_calculator.py  
+┃ ┣ 📃 forgery_detector.py  
+┃ ┣ 📃 forgery_service.py  
+┃ ┣ 📃 pdf_processor.py  
+┃ ┣ 📃 __init__.py  
+┃ ┗ 🗂️ __pycache__  
+┃   ┣ 📃 claim_calculator.cpython-311.pyc  
+┃   ┣ 📃 forgery_detector.cpython-311.pyc  
+┃   ┣ 📃 forgery_service.cpython-311.pyc  
+┃   ┣ 📃 pdf_processor.cpython-311.pyc  
+┃   ┗ 📃 __init__.cpython-311.pyc  
+
+┣ 🗂️ tests  
+┃ ┣ 📃 test_claims.py  
+┃ ┗ 📃 __init__.py  
+
+┣ 🗂️ uploads  
+
+┣ 🗂️ utils  
+┃ ┣ 📃 auth.py  
+┃ ┣ 📃 ela.py  
+┃ ┣ 🗂️ scripts  
+┃ ┃ ┣ 📃 create_final_dummy_data.py  
+┃ ┃ ┣ 📃 ela_dataloader_test.py  
+┃ ┃ ┣ 📃 ela_dataset.py  
+┃ ┃ ┣ 📃 make_ela_dataset.py  
+┃ ┃ ┣ 📃 test_setup.py  
+┃ ┃ ┗ 📃 train_resnet18_ela.py  
+┃ ┣ 🗂️ sql  
+┃ ┃ ┗ 📃 init_database.sql  
+┃ ┗ 🗂️ __pycache__  
+┃   ┣ 📃 auth.cpython-311.pyc  
+┃   ┗ 📃 ela.cpython-311.pyc  
+
+┗ 🗂️ __pycache__  
+  ┗ 📃 main.cpython-311.pyc  
+
+🗂️ deploy  
+┣ 📃 aws-deploy.sh  
+┣ 📃 gcp-deploy.sh  
+┗ 📃 배포.md  
+
+🗂️ docs  
+┣ 📃 Architecture.md  
+┗ 📃 ERD.md  
+
+🗂️ nginx  
+┣ 📃 nginx.conf  
+┣ 📃 nginx.prod.conf  
+┗ 🗂️ ssl  
+
+🗂️ uploads  
+┣ 🗂️ diagnosis  
+┗ 🗂️ receipts  
+
 ```
+
+</details>
+
+<details>
+<summary>ClaimBridge-Frontend</summary>
+         
+```
+🗂️ frontend
+├── 🗂️ .github
+│   └── 🗂️ ISSUE_TEMPLATE
+├── 🗂️ node_modules
+├── 🗂️ public
+├── 🗂️ src
+│   ├── 🗂️ assets
+│   │   ├── 🗂️ Analysis
+│   │   ├── 🗂️ fonts
+│   │   ├── 🗂️ Navbar
+│   │   ├── 🗂️ Onboarding
+│   │   └── 🗂️ Upload
+│   ├── 🗂️ components
+│   │   ├── 🗂️ buttons
+│   │   ├── 📃 Container.jsx
+│   │   ├── 📃 LoadingOverlay.jsx
+│   │   ├── 📃 Navbar.jsx
+│   │   └── 📃 Textinput.jsx
+│   ├── 🗂️ config
+│   │   └── 📃 api.js
+│   ├── 🗂️ hooks
+│   │   └── 📃 useAPI.js
+│   ├── 🗂️ pages
+│   │   ├── 📃 Analysis.jsx
+│   │   ├── 📃 Complete.jsx
+│   │   ├── 📃 Diagnosis_edit.jsx
+│   │   ├── 📃 Login.jsx
+│   │   ├── 📃 Management.jsx
+│   │   ├── 📃 Onboarding.jsx
+│   │   ├── 📃 Receipt_edit.jsx
+│   │   ├── 📃 Report.jsx
+│   │   ├── 📃 Signup.jsx
+│   │   └── 📃 Upload.jsx
+│   ├── 🗂️ services
+│   │   ├── 📃 apiClient.js
+│   │   ├── 📃 authAPI.js
+│   │   ├── 📃 claimsAPI.js
+│   │   ├── 📃 diagnosisAPI.js
+│   │   ├── 📃 forgeryAPI.js
+│   │   ├── 📃 index.js
+│   │   └── 📃 receiptAPI.js
+│   ├── 🗂️ styles
+│   ├── 📃 App.jsx
+│   └── 📃 main.jsx
+├── 📃 .env
+├── 📃 .gitignore
+├── 📃 .prettierrc
+├── 📃 eslint.config.js
+├── 📃 index.html
+├── 📃 package-lock.json
+├── 📃 package.json
+├── 📃 README.md
+├── 📃 vercel.json
+└── 📃 vite.config.js
+
+```
+</details>
 
 # 👥 Team Members
 
