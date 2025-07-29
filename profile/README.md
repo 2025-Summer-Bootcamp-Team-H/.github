@@ -196,20 +196,13 @@ echo "VITE_API_BASE_URL=http://localhost:8000/api/v1" > .env
 npm run dev
 ```
 
-### 4. 접속 확인
-
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8000
-- **API 문서**: http://localhost:8000/docs
-- **pgAdmin**: http://localhost:8080 (admin@insurance.com / admin123)
-
 # 📁 Directory Structure
 
 <details>
 <summary>ClaimBridge-Backend</summary>
          
 ```
-🗂️ ClaimBridge-Backend
+🗂️ Backend
 ┣ 📃 Dockerfile  
 ┣ 📃 Dockerfile.prod  
 ┣ 📃 main.py  
@@ -223,28 +216,14 @@ npm run dev
 ┃ ┣ 📃 auth.py  
 ┃ ┣ 📃 claims.py  
 ┃ ┣ 📃 forgeries.py  
+┃ ┣ 📃 image.py  
 ┃ ┣ 📃 medical.py  
 ┃ ┣ 📃 ocr.py  
 ┃ ┣ 📃 pdf.py  
 ┃ ┣ 📃 upload.py  
-┃ ┣ 📃 __init__.py  
-┃ ┗ 🗂️ __pycache__  
-┃   ┣ 📃 auth.cpython-311.pyc  
-┃   ┣ 📃 claims.cpython-311.pyc  
-┃   ┣ 📃 forgeries.cpython-311.pyc  
-┃   ┣ 📃 medical.cpython-311.pyc  
-┃   ┣ 📃 ocr.cpython-311.pyc  
-┃   ┣ 📃 pdf.cpython-311.pyc  
-┃   ┣ 📃 upload.cpython-311.pyc  
-┃   ┗ 📃 __init__.cpython-311.pyc  
-
-┣ 🗂️ api_backup  
-┃ ┣ 📃 claims.py  
-┃ ┣ 📃 medical.py  
-┃ ┗ 📃 pdf.py  
+┃ ┗ 📃 __init__.py  
 
 ┣ 🗂️ input_pdfs  
-┃ ┣ 📃 .gitkeep  
 ┃ ┣ 📃 삼성생명_스마트보장보험.pdf  
 ┃ ┣ 📃 삼성생명_실손의료비보장보험.pdf  
 ┃ ┗ 📃 삼성생명_희망사랑보험.pdf  
@@ -253,15 +232,9 @@ npm run dev
 ┃ ┣ 📃 database.py  
 ┃ ┣ 📃 models.py  
 ┃ ┣ 📃 schemas.py  
-┃ ┣ 📃 __init__.py  
-┃ ┗ 🗂️ __pycache__  
-┃   ┣ 📃 database.cpython-311.pyc  
-┃   ┣ 📃 models.cpython-311.pyc  
-┃   ┣ 📃 schemas.cpython-311.pyc  
-┃   ┗ 📃 __init__.cpython-311.pyc  
+┃ ┗ 📃 __init__.py  
 
 ┣ 🗂️ output_results  
-┃ ┣ 📃 .gitkeep  
 ┃ ┣ 📃 삼성생명_스마트보장보험_extracted_clauses.json  
 ┃ ┣ 📃 삼성생명_실손의료비보장보험_extracted_clauses.json  
 ┃ ┗ 📃 삼성생명_희망사랑보험_extracted_clauses.json  
@@ -272,19 +245,22 @@ npm run dev
 ┃ ┣ 📃 forgery_detector.py  
 ┃ ┣ 📃 forgery_service.py  
 ┃ ┣ 📃 pdf_processor.py  
-┃ ┣ 📃 __init__.py  
-┃ ┗ 🗂️ __pycache__  
-┃   ┣ 📃 claim_calculator.cpython-311.pyc  
-┃   ┣ 📃 forgery_detector.cpython-311.pyc  
-┃   ┣ 📃 forgery_service.cpython-311.pyc  
-┃   ┣ 📃 pdf_processor.cpython-311.pyc  
-┃   ┗ 📃 __init__.cpython-311.pyc  
+┃ ┣ 📃 storage_service.py  
+┃ ┗ 📃 __init__.py  
 
 ┣ 🗂️ tests  
+┃ ┣ 📃 test_auth.py  
+┃ ┣ 📃 test_claims_api.py  
 ┃ ┣ 📃 test_claims.py  
+┃ ┣ 📃 test_forgery.py  
+┃ ┣ 📃 test_models.py  
+┃ ┣ 📃 test_pdf.py  
+┃ ┣ 📃 test_utils.py  
 ┃ ┗ 📃 __init__.py  
 
 ┣ 🗂️ uploads  
+┃ ┣ 🗂️ diagnosis  
+┃ ┗ 🗂️ receipts  
 
 ┣ 🗂️ utils  
 ┃ ┣ 📃 auth.py  
@@ -298,12 +274,6 @@ npm run dev
 ┃ ┃ ┗ 📃 train_resnet18_ela.py  
 ┃ ┣ 🗂️ sql  
 ┃ ┃ ┗ 📃 init_database.sql  
-┃ ┗ 🗂️ __pycache__  
-┃   ┣ 📃 auth.cpython-311.pyc  
-┃   ┗ 📃 ela.cpython-311.pyc  
-
-┗ 🗂️ __pycache__  
-  ┗ 📃 main.cpython-311.pyc  
 
 🗂️ deploy  
 ┣ 📃 aws-deploy.sh  
@@ -319,10 +289,6 @@ npm run dev
 ┣ 📃 nginx.prod.conf  
 ┗ 🗂️ ssl  
 
-🗂️ uploads  
-┣ 🗂️ diagnosis  
-┗ 🗂️ receipts  
-
 ```
 
 </details>
@@ -334,8 +300,8 @@ npm run dev
 🗂️ frontend
 ├── 🗂️ .github
 │   └── 🗂️ ISSUE_TEMPLATE
-├── 🗂️ node_modules
 ├── 🗂️ public
+│   └── 📃 robots.txt
 ├── 🗂️ src
 │   ├── 🗂️ assets
 │   │   ├── 🗂️ Analysis
@@ -373,6 +339,7 @@ npm run dev
 │   │   ├── 📃 index.js
 │   │   └── 📃 receiptAPI.js
 │   ├── 🗂️ styles
+│   │   └── 📃 GlobalStyle.js
 │   ├── 📃 App.jsx
 │   └── 📃 main.jsx
 ├── 📃 .env
@@ -391,14 +358,11 @@ npm run dev
 
 # 👥 Team Members
 
-| Name    | 역할                                        | 담당 영역                                    |
-| ------- | ------------------------------------------ | -------------------------------------- |
-| 팀원 1  | Leader, Backend, Frontend, DevOps          | 전체 시스템 설계 및 개발                    |
-| 팀원 2  | Backend, DevOps                            | AI 서비스 및 인프라 구축                   |
-| 팀원 3  | Backend, DevOps                            | 데이터베이스 및 API 개발                   |
-| 팀원 4  | Frontend, Design                           | 사용자 인터페이스 및 UX 디자인             |
-| 팀원 5  | Frontend, Design                           | 프론트엔드 개발 및 컴포넌트 설계           |
-| 팀원 6  | Frontend, Design                           | 차트 및 데이터 시각화                      |
+|            | 최일우 | 오유민 | 김다현 | 김태수 | 윤일환 | 김수현 |
+|------------|:------:|:------:|:------:|:------:|:------:|:------:|
+| **Profile** | ![](https://github.com/Lauiee.png) | ![](https://github.com/Nekerworld.png) | ![](https://github.com/wonjinjang.png) | ![](https://github.com/gyuri224.png) | ![](https://github.com/einhin.png) | ![](https://github.com/RYUJEONGHUN.png) | ![](https://github.com/fostacion.png) |
+| **Role**    | Team Leader<br>Frontend<br>UI/UX<br>DevOps | Frontend<br>UI/UX | Frontend<br>UI/UX | Backend | Backend | Backend | Backend |
+| **GitHub**  | [@Il-Woo-Choi](https://github.com/Il-Woo-Choi) | [@Nekerworld](https://github.com/Nekerworld) | [@wonjinjang](https://github.com/wonjinjang) | [@gyuri224](https://github.com/gyuri224) | [@einhin](https://github.com/einhin) | [@RYUJEONGHUN](https://github.com/RYUJEONGHUN) | [@fostacion](https://github.com/fostacion) |
 
 ---
 
