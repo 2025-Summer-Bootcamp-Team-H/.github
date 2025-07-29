@@ -78,7 +78,7 @@ Report
 
 # 📗 API
 
-![API Documentation](api-docs.png)
+![API Documentation](../api-docs.png)
 
 # 🛠️ System Architecture
 
