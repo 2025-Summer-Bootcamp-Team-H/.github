@@ -2,9 +2,9 @@
 
 2025 Techeer Summer BootCamp Team H
 
-### **AI 기반 보험금 청구 처리 시스템** 
+### **AI 기반 보험금 1차 심사 자동화 시스템** 
 
-> **ClaimBridge를 통해 더 빠르고 정확한 보험금 청구를 경험해보세요!**
+> **보험 1차 심사의 패러다임을 바꾼 ClaimBridge을 경험해보세요!**
 
 # 📖 Table of contents
 
@@ -86,20 +86,7 @@ Report
 
 # 🛠️ System Architecture
 
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend      │    │   Backend       │    │   Database      │
-│   (React)       │◄──►│   (FastAPI)     │◄──►│   (PostgreSQL)  │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         │                       │                       │
-         ▼                       ▼                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Nginx         │    │   AI Services   │    │   Monitoring    │
-│   (Reverse      │    │   (OpenAI,      │    │   (Prometheus,  │
-│    Proxy)       │    │    Claude)      │    │    Jaeger)      │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
+![System Architecture](../system.png)
 
 # 🔑 ERD
 
@@ -360,16 +347,16 @@ npm run dev
 
 |            | 최일우 | 오유민 | 김다현 | 김태수 | 윤일환 | 김수현 |
 |------------|:------:|:------:|:------:|:------:|:------:|:------:|
-| **Profile** | ![](../choi.png) | ![](../.png) | ![](https://github.com/wonjinjang.png) | ![](https://github.com/gyuri224.png) | ![](https://github.com/einhin.png) | ![](https://github.com/RYUJEONGHUN.png) | ![](https://github.com/fostacion.png) |
-| **Role**    | Team Leader<br>Frontend<br>UI/UX<br>DevOps | Frontend<br>UI/UX | Frontend<br>UI/UX | Backend | Backend | Backend | Backend |
-| **GitHub**  | [@Il-Woo-Choi](https://github.com/Il-Woo-Choi) | [@Nekerworld](https://github.com/Nekerworld) | [@wonjinjang](https://github.com/wonjinjang) | [@gyuri224](https://github.com/gyuri224) | [@einhin](https://github.com/einhin) | [@RYUJEONGHUN](https://github.com/RYUJEONGHUN) | [@fostacion](https://github.com/fostacion) |
+| **Profile** | <img src="../choi.png" width="120" height="120" style="border-radius: 50%; object-fit: cover;"> | <img src="../yoomin_profile.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover;"> | <img src="../dahyun_profile.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover;"> | <img src="../taesu_profile.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover;"> | <img src="../ilhwan_profile.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover;"> | <img src="../soohyun_profile.jpg" width="120" height="120" style="border-radius: 50%; object-fit: cover;"> |
+| **Role**    | Team Leader<br>Frontend<br>DevOps | Frontend | Frontend | Backend<br>DevOps | Backend | Backend |
+| **GitHub**  | [@Il-Woo-Choi](https://github.com/Il-Woo-Choi) | [@ohyoom](https://github.com/ohyoom) | [@dadazure](https://github.com/dadazure) | [@gimtaesu399](https://github.com/gimtaesu399) | [@oao03](https://github.com/oao03) | [@SoohyunKim123](https://github.com/SoohyunKim123) |
 
 ---
 
 <div align="center">
 
-**ClaimBridge** - AI 기반 보험금 청구 처리 시스템
+**ClaimBridge** - AI 기반 보험금 1차 심사 자동화 시스템
 
-더 빠르고 정확한 보험금 청구를 경험해보세요! 🏥✨
+더 빠르고 정확한 보험금 심사를 경험해보세요! 🏥✨
 
 </div>
