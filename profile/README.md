@@ -11,7 +11,7 @@
 * [Introduction](#-introduction)
 * [Demo](#-demo)
 * [API](#-api)
-* [System Architecture](%EF%B8%8F-system-architecture)
+* [System Architecture](#-system-architecture)
 * [ERD](#-erd)
 * [Tech Stack](#-tech-stack)
 * [Monitoring](#-monitoring)
@@ -84,6 +84,7 @@ Report
 
 ![API Documentation](../api-docs.png)
 
+<a name="-system-architecture"></a>
 # 🛠️ System Architecture
 
 ![System Architecture](../system.png)
