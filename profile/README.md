@@ -1,10 +1,14 @@
-# 🏥 ClaimBridge 🏥
+<div align="center">
 
-2025 Techeer Summer BootCamp Team H
+# 🏥 **ClaimBridge** 🏥
 
-### **AI 기반 보험금 1차 심사 자동화 시스템** 
+### **🤖 AI 기반 보험금 1차 심사 자동화 시스템** 
 
-> **보험 1차 심사의 패러다임을 바꾼 ClaimBridge을 경험해보세요!**
+💡 보험 1차 심사의 패러다임을 바꾼 ClaimBridge을 경험해보세요!
+
+---
+
+</div>
 
 # 📖 Table of contents
 
