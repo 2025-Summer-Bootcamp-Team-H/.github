@@ -117,19 +117,32 @@ Report
 
 | cAdvisor         |
 |------------------|
-| ![cAdvisor](cadvisor-monitoring.png) |
-
-| FastAPI          |
-|------------------|
-| ![FastAPI](fastapi-monitoring.png) |
+| ![cAdvisor](../cadvisor.png) |
 
 | Node Exporter    |
 |------------------|
-| ![Node Exporter](nodeexporter-monitoring.png) |
+| ![Node Exporter](node exporter.png) |  ![Node Exporter](node exporter2.png) |
 
-| PostgreSQL       |
-|------------------|
-| ![PostgreSQL](postgres-monitoring.png) |
+
+<table>
+  <tr>
+    <td colspan="2" align="center"><b>FastAPI</b></td>
+  </tr>
+  <tr>
+    <td><img src="../fastapi.png" width="100%"></td>
+    <td><img src="../fastapi2.png" width="100%"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2" align="center"><b>PostgreSQL</b></td>
+  </tr>
+  <tr>
+    <td><img src="../postgre.png" width="100%"></td>
+    <td><img src="../postgre2.png" width="100%"></td>
+  </tr>
+</table>
 
 # 🚀 How to start
 
