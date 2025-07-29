@@ -11,7 +11,7 @@
 * [Introduction](#-introduction)
 * [Demo](#-demo)
 * [API](#-api)
-* [System Architecture](#-system-architecture)
+* [System Architecture](F-system-architecture)
 * [ERD](#-erd)
 * [Tech Stack](#-tech-stack)
 * [Monitoring](#-monitoring)
@@ -360,7 +360,7 @@ npm run dev
 
 |            | 최일우 | 오유민 | 김다현 | 김태수 | 윤일환 | 김수현 |
 |------------|:------:|:------:|:------:|:------:|:------:|:------:|
-| **Profile** | ![](../choi.png) | ![](../oao.png) | ![](https://github.com/wonjinjang.png) | ![](https://github.com/gyuri224.png) | ![](https://github.com/einhin.png) | ![](https://github.com/RYUJEONGHUN.png) | ![](https://github.com/fostacion.png) |
+| **Profile** | ![](../choi.png) | ![](../.png) | ![](https://github.com/wonjinjang.png) | ![](https://github.com/gyuri224.png) | ![](https://github.com/einhin.png) | ![](https://github.com/RYUJEONGHUN.png) | ![](https://github.com/fostacion.png) |
 | **Role**    | Team Leader<br>Frontend<br>UI/UX<br>DevOps | Frontend<br>UI/UX | Frontend<br>UI/UX | Backend | Backend | Backend | Backend |
 | **GitHub**  | [@Il-Woo-Choi](https://github.com/Il-Woo-Choi) | [@Nekerworld](https://github.com/Nekerworld) | [@wonjinjang](https://github.com/wonjinjang) | [@gyuri224](https://github.com/gyuri224) | [@einhin](https://github.com/einhin) | [@RYUJEONGHUN](https://github.com/RYUJEONGHUN) | [@fostacion](https://github.com/fostacion) |
 
