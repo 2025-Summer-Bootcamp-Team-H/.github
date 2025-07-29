@@ -122,6 +122,7 @@ Report
   </tr>
   <tr>
     <td><img src="../cadvisor.png" width="100%"></td>
+    <td><img src="../cadvisor2.png" width="100%"></td>
   </tr>
          
   <tr>
