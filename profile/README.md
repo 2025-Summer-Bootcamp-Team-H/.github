@@ -115,19 +115,21 @@ Report
 
 # 📊 Monitoring
 
-### Prometheus
-- 시스템 메트릭 수집
-- API 응답 시간 모니터링
-- 데이터베이스 성능 추적
+| cAdvisor         |
+|------------------|
+| ![cAdvisor](cadvisor-monitoring.png) |
 
-### Jaeger (OpenTelemetry)
-- 분산 추적
-- API 호출 체인 분석
-- 성능 병목 지점 식별
+| FastAPI          |
+|------------------|
+| ![FastAPI](fastapi-monitoring.png) |
 
-### cAdvisor
-- 컨테이너 리소스 사용량 모니터링
-- Docker 컨테이너 성능 추적
+| Node Exporter    |
+|------------------|
+| ![Node Exporter](nodeexporter-monitoring.png) |
+
+| PostgreSQL       |
+|------------------|
+| ![PostgreSQL](postgres-monitoring.png) |
 
 # 🚀 How to start
 
