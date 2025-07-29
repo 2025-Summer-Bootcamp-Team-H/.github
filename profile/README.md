@@ -78,29 +78,7 @@ Report
 
 # 📗 API
 
-### 인증
-- `POST /api/v1/auth/register` - 회원가입
-- `POST /api/v1/auth/login` - 로그인
-
-### 파일 업로드
-- `POST /api/v1/upload/diagnoses` - 진단서 이미지 업로드
-- `POST /api/v1/upload/receipts` - 영수증 이미지 업로드
-
-### OCR 처리
-- `PATCH /api/v1/ocr/diagnoses/{id}` - 진단서 OCR 처리
-- `PATCH /api/v1/ocr/receipts/{id}` - 영수증 OCR 처리
-
-### 보험금 청구
-- `POST /api/v1/claims` - 보험금 청구 생성
-- `GET /api/v1/claims` - 청구 목록 조회
-- `GET /api/v1/claims/{id}` - 청구 상세 조회
-- `GET /api/v1/claims/search` - 청구 검색
-
-### 위조분석
-- `POST /api/v1/forgery_analysis` - 문서 위조분석
-
-### PDF 처리
-- `POST /api/v1/pdf/process` - PDF 보험조항 추출
+![API Documentation](api-docs.png)
 
 # 🛠️ System Architecture
 
