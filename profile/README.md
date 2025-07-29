@@ -1,6 +1,6 @@
-# 🏆 2024 Techeer Summer BootCamp Project 🏆
-
 # 🏥 ClaimBridge 🏥
+
+2025 Techeer Summer BootCamp Team H
 
 ### **AI 기반 보험금 청구 처리 시스템** 
 
@@ -21,13 +21,13 @@
 
 # 📣 Introduction
 
-### URL
+### 🖥️ ClaimBridge
 
-> 🖥️ ClaimBridge
+> URL : [claimbridge.world](https://claimbridge.world)
 
-### Medium
+### 🔎 ClaimBridge Medium 
 
-> 🔎 ClaimBridge Medium 
+> URL
 
 ### 주요 기능
 
@@ -40,7 +40,7 @@
 
 # 🕺🏻 Demo
 
-### Onboarding Page
+### Onboarding
 
 > ClaimBridge의 간략한 설명을 담고 있습니다.
 
@@ -63,6 +63,10 @@ Upload
 > AI가 분석한 결과를 확인하고 보험금 청구를 진행할 수 있습니다.
 
 Analysis
+
+### Edit Page
+
+> 병원 영수증 및 진단서에서 OCR로 추출된 내용이 잘못된 경우, 이 페이지에서 직접 수정할 수 있으며, 이미지가 안 보일 경우 돋보기 기능을 통해 확대하여 정확하게 확인할 수 있습니다.
 
 ### Management Page
 
