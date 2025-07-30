@@ -92,7 +92,9 @@
 
 > JWT 기반 인증을 통해 안전하게 로그인하실 수 있습니다.
 
-Login & Sign up
+![로그인](https://github.com/user-attachments/assets/ab5b08bc-fd97-4d74-9797-46b061cd8095)
+
+
 
 ### Management Page
 
