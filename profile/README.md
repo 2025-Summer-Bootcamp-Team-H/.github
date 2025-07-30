@@ -60,6 +60,11 @@
 
 Onboarding
 
+
+https://github.com/user-attachments/assets/6aed9095-a426-4d03-b985-b3667d0678e1
+
+
+
 ### Upload Page
 
 > 진단서와 영수증 이미지를 업로드하여 AI 분석을 시작할 수 있습니다.
