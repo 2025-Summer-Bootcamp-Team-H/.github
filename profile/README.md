@@ -5,10 +5,7 @@
 ### **AI 기반 보험금 1차 심사 자동화 시스템** 
 <br><br>
 
-<video width="800" height="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" autoplay loop muted playsinline>
-  <source src="../main.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="../main.png">
 
 <br><br>
 💡 보험 1차 심사의 패러다임을 바꾼 ClaimBridge을 경험해보세요!
@@ -43,15 +40,15 @@
 
 > URL
 
+
 ### 주요 기능
 
-* **AI 기반 OCR 처리**: 진단서/영수증 이미지에서 텍스트 자동 추출
-* **위조분석**: AI를 통한 문서 위조 여부 분석
-* **보험금 계산**: 자동 보험금 계산 및 청구 생성
-* **PDF 처리**: 보험 약관 PDF에서 조항 자동 추출
-* **관리자 대시보드**: 청구 관리 및 통계 분석
-* **실시간 모니터링**: Prometheus, Jaeger를 통한 시스템 모니터링
-
+* **🤖 AI 기반 OCR 처리**: Upstage AI Information Extraction API를 활용한 진단서/영수증 이미지에서 텍스트 자동 추출 및 구조화된 데이터 변환
+* **🔍 딥러닝 기반 위조분석**: ResNet18 + ELA(Error Level Analysis) 기술을 활용한 문서 위조 여부 분석 (정확도 93%+)
+* **💰 지능형 보험금 계산**: 진단명 키워드 매칭 및 보험상품별 특약 자동 적용을 통한 정확한 보험금 산정
+* **📄 AI 기반 PDF 조항 추출**: OpenAI GPT-4를 활용한 보험 약관 PDF에서 특약별 보장내용, 지급금액, 최대한도 자동 추출
+* **📊 실시간 관리자 대시보드**: Chart.js 기반 시각화를 통한 청구 현황 분석 및 승인/거부 워크플로우 관리
+* **📈 엔터프라이즈급 모니터링**: Prometheus 메트릭 수집, Jaeger 분산 추적, cAdvisor 컨테이너 모니터링을 통한 시스템 성능 실시간 추적
 <br><br>
 
 
@@ -130,7 +127,7 @@ Report
 | **Frontend**   | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chart.js&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) |
 | **Backend**    | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F36?style=for-the-badge&logo=sqlalchemy&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Anthropic](https://img.shields.io/badge/Anthropic-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white) ![PyMuPDF](https://img.shields.io/badge/PyMuPDF-0078D4?style=for-the-badge&logo=microsoft&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![NLTK](https://img.shields.io/badge/NLTK-000000?style=for-the-badge&logo=nltk&logoColor=white) ![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Alembic](https://img.shields.io/badge/Alembic-000000?style=for-the-badge&logo=alembic&logoColor=white) ![Boto3](https://img.shields.io/badge/Boto3-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white) |
 | **DevOps**     | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white) ![Jaeger](https://img.shields.io/badge/Jaeger-000000?style=for-the-badge&logo=jaeger&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |
-| **AI/ML**      | ![OpenAI GPT-4](https://img.shields.io/badge/OpenAI%20GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white) ![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white) ![Tesseract OCR](https://img.shields.io/badge/Tesseract%20OCR-000000?style=for-the-badge&logo=tesseract&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) |
+| **AI/ML**      | ![OpenAI GPT-4](https://img.shields.io/badge/OpenAI%20GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white) ![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white) ![Upstage AI](https://img.shields.io/badge/Upstage%20AI-000000?style=for-the-badge&logo=upstage&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![ResNet18](https://img.shields.io/badge/ResNet18-000000?style=for-the-badge&logo=pytorch&logoColor=white) ![ELA Analysis](https://img.shields.io/badge/ELA%20Analysis-000000?style=for-the-badge&logo=opencv&logoColor=white) |
 | **Testing**    | ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white) ![Locust](https://img.shields.io/badge/Locust-000000?style=for-the-badge&logo=locust&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white) |
 
 
