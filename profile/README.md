@@ -6,6 +6,8 @@
 
 💡 보험 1차 심사의 패러다임을 바꾼 ClaimBridge을 경험해보세요!
 
+<img src="../main.png">
+
 ---
 
 </div>
