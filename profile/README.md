@@ -40,6 +40,8 @@
 
 > URL : [ClaimBridge_Medium](https://medium.com/@ksoohyy/claim-bridge-%EB%B3%B4%ED%97%98-1%EC%B0%A8-%EC%8B%AC%EC%82%AC%EC%9D%98-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%EC%9D%84-%EB%B0%94%EA%BE%BC-%EC%9E%90%EB%8F%99%ED%99%94-%EC%8B%9C%EC%8A%A4%ED%85%9C-2025-siliconvalley-summer-bootcamp-5a3e33289a58)
 
+<br><br>
+
 
 ### 주요 기능
 
@@ -112,13 +114,15 @@
 
 > 관리자는 모든 청구 건을 관리하고 승인/거부할 수 있습니다.
 
-Management
+![management](https://github.com/user-attachments/assets/0e1f013f-cbb9-46a9-9017-096c8584c3e8)
+
 
 ### Report Page
 
 > 차트와 통계를 통해 청구 현황을 분석할 수 있습니다.
 
-Report
+![ezgif-4642e34b5e98f7](https://github.com/user-attachments/assets/d05c6e03-4190-4177-908b-c56b94aed509)
+
 
 <br><br>
 
