@@ -82,6 +82,12 @@
 
 > 병원 영수증 및 진단서에서 OCR로 추출된 내용이 잘못된 경우, 이 페이지에서 직접 수정할 수 있으며, 이미지가 안 보일 경우 돋보기 기능을 통해 확대하여 정확하게 확인할 수 있습니다.
 
+![편집1](https://github.com/user-attachments/assets/fa17040a-57a7-48e7-a434-59b127ad495b)
+
+![제목 없는 동영상 - Clipchamp로 제작 (4) (2)](https://github.com/user-attachments/assets/f84953fd-1291-4e39-9f5d-8062087af7ec)
+
+
+
 ### Login & Sign up
 
 > JWT 기반 인증을 통해 안전하게 로그인하실 수 있습니다.
