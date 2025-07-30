@@ -34,21 +34,22 @@
 
 ### 🖥️ ClaimBridge
 
-> URL : [claimbridge.world](https://claimbridge.world)
+> URL : [ClaimBridge.World](https://claimbridge.world)
 
 ### 🔎 ClaimBridge Medium 
 
-> URL
+> URL : [ClaimBridge_Medium](https://medium.com/@ksoohyy/claim-bridge-%EB%B3%B4%ED%97%98-1%EC%B0%A8-%EC%8B%AC%EC%82%AC%EC%9D%98-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%EC%9D%84-%EB%B0%94%EA%BE%BC-%EC%9E%90%EB%8F%99%ED%99%94-%EC%8B%9C%EC%8A%A4%ED%85%9C-2025-siliconvalley-summer-bootcamp-5a3e33289a58)
 
 
 ### 주요 기능
 
-*  AI 기반 OCR 처리**: Upstage AI Information Extraction API를 활용한 진단서/영수증 이미지에서 텍스트 자동 추출 및 구조화된 데이터 변환
-*  딥러닝 기반 위조분석**: ResNet18 + ELA(Error Level Analysis) 기술을 활용한 문서 위조 여부 분석 (정확도 93%+)
-*  지능형 보험금 계산**: 진단명 키워드 매칭 및 보험상품별 특약 자동 적용을 통한 정확한 보험금 산정
-*  AI 기반 PDF 조항 추출**: OpenAI GPT-4를 활용한 보험 약관 PDF에서 특약별 보장내용, 지급금액, 최대한도 자동 추출
-*  실시간 관리자 대시보드**: Chart.js 기반 시각화를 통한 청구 현황 분석 및 승인/거부 워크플로우 관리
-*  엔터프라이즈급 모니터링**: Prometheus 메트릭 수집, Jaeger 분산 추적, cAdvisor 컨테이너 모니터링을 통한 시스템 성능 실시간 추적
+* **🤖 AI 기반 OCR 처리**: Upstage AI Information Extraction API를 활용한 진단서/영수증 이미지에서 텍스트 자동 추출 및 구조화된 데이터 변환
+* **🔍 딥러닝 기반 위조분석**: ResNet18 + ELA(Error Level Analysis) 기술을 활용한 문서 위조 여부 분석 (정확도 93%+)
+* **💰 지능형 보험금 계산**: 진단명 키워드 매칭 및 보험상품별 특약 자동 적용을 통한 정확한 보험금 산정
+* **📄 AI 기반 PDF 조항 추출**: OpenAI GPT-4를 활용한 보험 약관 PDF에서 특약별 보장내용, 지급금액, 최대한도 자동 추출
+* **📊 실시간 관리자 대시보드**: Chart.js 기반 시각화를 통한 청구 현황 분석 및 승인/거부 워크플로우 관리
+* **📈 엔터프라이즈급 모니터링**: Prometheus 메트릭 수집, Jaeger 분산 추적, cAdvisor 컨테이너 모니터링을 통한 시스템 성능 실시간 추적
+  
 <br><br>
 
 
