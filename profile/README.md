@@ -5,7 +5,10 @@
 ### **AI 기반 보험금 1차 심사 자동화 시스템** 
 <br><br>
 
-<img src="../main.png">
+<video width="800" height="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" autoplay loop muted playsinline>
+  <source src="../main.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <br><br>
 💡 보험 1차 심사의 패러다임을 바꾼 ClaimBridge을 경험해보세요!
