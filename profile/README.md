@@ -60,7 +60,7 @@
 
 Onboarding
 
-![onboarding_video](https://github.com/user-attachments/assets/5b658728-4978-41ee-91af-8d4295b72a04)
+![제목 없는 동영상 - Clipchamp로 제작 (4)](https://github.com/user-attachments/assets/d66e58ff-42a8-4aa7-86f6-21f86f9e408c)
 
 
 
