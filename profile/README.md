@@ -14,7 +14,7 @@
 </div>
 
 
-
+<br><br>
 
 # 📖 Table of contents
 
@@ -28,6 +28,7 @@
 * [How to start](#-how-to-start)
 * [Directory Structure](#-directory-structure)
 * [Team Members](#-team-members)
+<br><br>
 
 # 📣 Introduction
 
@@ -47,6 +48,9 @@
 * **PDF 처리**: 보험 약관 PDF에서 조항 자동 추출
 * **관리자 대시보드**: 청구 관리 및 통계 분석
 * **실시간 모니터링**: Prometheus, Jaeger를 통한 시스템 모니터링
+
+<br><br>
+
 
 # 🕺🏻 Demo
 
@@ -90,19 +94,30 @@ Management
 
 Report
 
+<br><br>
+
 # 📗 API
 
 ![API Documentation](../api-docs.png)
 
 <a name="-system-architecture"></a>
+
+<br><br>
+
 # 🛠️ System Architecture
 
 ![System Architecture](../system.png)
+
+<br><br>
 
 # 🔑 ERD
 
 
 ![Database ERD](../erd-diagram.png)
+
+
+
+<br><br>
 
 
 # 💻 Tech Stack
@@ -114,6 +129,10 @@ Report
 | **DevOps**     | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white) ![Jaeger](https://img.shields.io/badge/Jaeger-000000?style=for-the-badge&logo=jaeger&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |
 | **AI/ML**      | ![OpenAI GPT-4](https://img.shields.io/badge/OpenAI%20GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white) ![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white) ![Tesseract OCR](https://img.shields.io/badge/Tesseract%20OCR-000000?style=for-the-badge&logo=tesseract&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) |
 | **Testing**    | ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white) ![Locust](https://img.shields.io/badge/Locust-000000?style=for-the-badge&logo=locust&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white) |
+
+
+<br><br>
+
 
 # 📊 Monitoring
 
@@ -151,6 +170,9 @@ Report
   </tr>
          
 </table>
+
+
+<br><br>
 
 
 # 🚀 How to start
@@ -193,6 +215,10 @@ echo "VITE_API_BASE_URL=http://localhost:8000/api/v1" > .env
 # 개발 서버 실행
 npm run dev
 ```
+
+
+<br><br>
+
 
 # 📁 Directory Structure
 
@@ -353,6 +379,10 @@ npm run dev
 
 ```
 </details>
+
+
+<br><br>
+
 
 # 👥 Team Members
 
