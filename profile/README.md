@@ -67,13 +67,15 @@
 
 > 진단서와 영수증 이미지를 업로드하여 AI 분석을 시작할 수 있습니다.
 
-Upload
+![upload_video](https://github.com/user-attachments/assets/07778066-730e-4152-9e04-b6149706bdef)
+
+
 
 ### Analysis Page
 
 > AI가 분석한 결과를 확인하고 보험금 청구를 진행할 수 있습니다.
 
-Analysis
+
 
 ### Edit Page
 
