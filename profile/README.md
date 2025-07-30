@@ -60,8 +60,7 @@
 
 Onboarding
 
-
-https://github.com/user-attachments/assets/6aed9095-a426-4d03-b985-b3667d0678e1
+![Uploading onboarding_video.gif…]()
 
 
 
