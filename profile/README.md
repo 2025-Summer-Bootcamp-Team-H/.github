@@ -72,8 +72,7 @@
 
 > ClaimBridge의 간략한 설명을 담고 있습니다.
 
-
-![제목 없는 동영상 - Clipchamp로 제작 (4)](https://github.com/user-attachments/assets/d66e58ff-42a8-4aa7-86f6-21f86f9e408c)
+<img src="https://github.com/user-attachments/assets/d66e58ff-42a8-4aa7-86f6-21f86f9e408c" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
 
@@ -81,24 +80,25 @@
 
 > 진단서와 영수증 이미지를 업로드하여 AI 분석을 시작할 수 있습니다.
 
-![upload_video](https://github.com/user-attachments/assets/07778066-730e-4152-9e04-b6149706bdef)
+<img src="https://github.com/user-attachments/assets/07778066-730e-4152-9e04-b6149706bdef" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
 
 ### Analysis Page
 
-> AI가 분석한 결과를 확인하고 보험금 청구를 진행할 수 있습니다.
+> 딥러닝 기반 위조 분석을 진행하여 위조된 문서인지 확인할 수 있습니다.
 
-![제목 없는 동영상 - Clipchamp로 제작 (4) (1)](https://github.com/user-attachments/assets/1d33dd75-93f0-43f0-8455-9f6c8d325589)
+<img src="https://github.com/user-attachments/assets/1d33dd75-93f0-43f0-8455-9f6c8d325589" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
 ### Edit Page
 
 > 병원 영수증 및 진단서에서 OCR로 추출된 내용이 잘못된 경우, 이 페이지에서 직접 수정할 수 있으며, 이미지가 안 보일 경우 돋보기 기능을 통해 확대하여 정확하게 확인할 수 있습니다.
 
-![편집1](https://github.com/user-attachments/assets/fa17040a-57a7-48e7-a434-59b127ad495b)
+<img src="https://github.com/user-attachments/assets/fa17040a-57a7-48e7-a434-59b127ad495b" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-![제목 없는 동영상 - Clipchamp로 제작 (4) (2)](https://github.com/user-attachments/assets/f84953fd-1291-4e39-9f5d-8062087af7ec)
+
+<img src="https://github.com/user-attachments/assets/f84953fd-1291-4e39-9f5d-8062087af7ec" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
 
@@ -106,23 +106,23 @@
 
 > JWT 기반 인증을 통해 안전하게 로그인하실 수 있습니다.
 
-![로그인](https://github.com/user-attachments/assets/ab5b08bc-fd97-4d74-9797-46b061cd8095)
+<img src="https://github.com/user-attachments/assets/ab5b08bc-fd97-4d74-9797-46b061cd8095" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
 
 
 
 ### Management Page
 
-> 관리자는 모든 청구 건을 관리하고 승인/거부할 수 있습니다.
+> 관리자는 모든 청구 건을 조회하고 관리할 수 있습니다.
 
-![management](https://github.com/user-attachments/assets/0e1f013f-cbb9-46a9-9017-096c8584c3e8)
+<img src="https://github.com/user-attachments/assets/0e1f013f-cbb9-46a9-9017-096c8584c3e8" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
 ### Report Page
 
 > 차트와 통계를 통해 청구 현황을 분석할 수 있습니다.
 
-![ezgif-4642e34b5e98f7](https://github.com/user-attachments/assets/d05c6e03-4190-4177-908b-c56b94aed509)
-
+<img src="https://github.com/user-attachments/assets/d05c6e03-4190-4177-908b-c56b94aed509" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 <br><br>
 
