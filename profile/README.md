@@ -58,7 +58,6 @@
 
 > ClaimBridge의 간략한 설명을 담고 있습니다.
 
-Onboarding
 
 ![제목 없는 동영상 - Clipchamp로 제작 (4)](https://github.com/user-attachments/assets/d66e58ff-42a8-4aa7-86f6-21f86f9e408c)
 
