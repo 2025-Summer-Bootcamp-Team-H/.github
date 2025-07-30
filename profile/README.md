@@ -75,6 +75,7 @@
 
 > AI가 분석한 결과를 확인하고 보험금 청구를 진행할 수 있습니다.
 
+![제목 없는 동영상 - Clipchamp로 제작 (4) (1)](https://github.com/user-attachments/assets/1d33dd75-93f0-43f0-8455-9f6c8d325589)
 
 
 ### Edit Page
