@@ -95,7 +95,6 @@
 
 > 병원 영수증 및 진단서에서 OCR로 추출된 내용이 잘못된 경우, 이 페이지에서 직접 수정할 수 있으며, 이미지가 안 보일 경우 돋보기 기능을 통해 확대하여 정확하게 확인할 수 있습니다.
 
-<img src="https://github.com/user-attachments/assets/fa17040a-57a7-48e7-a434-59b127ad495b" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
 <img src="https://github.com/user-attachments/assets/f84953fd-1291-4e39-9f5d-8062087af7ec" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -114,8 +113,6 @@
 ### Management Page
 
 > 관리자는 모든 청구 건을 조회하고 관리할 수 있습니다.
-
-<img src="https://github.com/user-attachments/assets/0e1f013f-cbb9-46a9-9017-096c8584c3e8" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
 ### Report Page
