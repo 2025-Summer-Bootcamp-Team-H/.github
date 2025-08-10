@@ -119,7 +119,6 @@
 
 > 차트와 통계를 통해 청구 현황을 분석할 수 있습니다.
 
-<img src="https://github.com/user-attachments/assets/d05c6e03-4190-4177-908b-c56b94aed509" width="1200" height="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 <br><br>
 
